@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Wyniki testu</title>
+    <link href="https://jsdelivr.net" rel="stylesheet">
+</head>
+<body class="container mt-5">
+    <div class="p-4 mb-4 bg-light rounded-3 text-center shadow-sm">
+        <h1 class="display-5 fw-bold">Twój wynik: {{ score }} z {{ total }}</h1>
+        <p class="lead">Poniżej znajduje się szczegółowy raport dotyczący każdego pytania.</p>
+        <a href="/quiz" class="btn btn-primary btn-md">Podejdź do testu ponownie</a>
+    </div>
+
+    <h2 class="mb-4">Analiza odpowiedzi:</h2>
+
+    {% for item in review %}
+    <div class="card mb-4 shadow-sm border-{% if item.is_correct %}success{% else %}danger{% endif %}">
+        <div class="card-header bg-{% if item.is_correct %}success text-white{% else %}danger text-white{% endif %} d-flex justify-content-between">
+            <span>Pytanie {{ loop.index }}</span>
+            <strong>{% if item.is_correct %}✓ Poprawnie (1/1 pkt){% else %}✗ Błędnie (0/1 pkt){% endif %}</strong>
+        </div>
+        <div class="card-body">
+            <h5 class="card-title mb-4">{{ item.question }}</h5>
+
+            <ul class="list-group">
+                {% for option in item.options %}
+
+                {# Оголошення статусів для підсвічування варіантів відповідей #}
+                {% set user_checked = option in item.user_answers %}
+                {% set is_right_option = option in item.correct_answers %}
+
+                <li class="list-group-item d-flex justify-content-between align-items-center
+                    {% if is_right_option %}list-group-item-success
+                    {% elif user_checked and not is_right_option %}list-group-item-danger{% endif %}">
+
+                    <div>
+                        <input class="form-check-input me-2" type="checkbox" disabled {% if user_checked %}checked{% endif %}>
+                        <span>{{ option }}</span>
+                    </div>
+
+                    <div>
+                        {% if is_right_option %}
+                            <span class="badge bg-success">Poprawna odpowiedź</span>
+                        {% endif %}
+                        {% if user_checked %}
+                            <span class="badge bg-secondary ms-1">Twoja odpowiedź</span>
+                        {% endif %}
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    {% endfor %}
+
+    <div class="text-center mb-5">
+        <a href="/" class="btn btn-primary btn-lg px-5">Strona główna</a>
+    </div>
+</body>
+</html>

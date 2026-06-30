@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Test SQL</title>
+    <!-- Посилання на Bootstrap відновлено для швидкого завантаження -->
+    <link href="https://jsdelivr.net" rel="stylesheet">
+    <link rel="icon" href="data:,">
+</head>
+<body class="container mt-5">
+    <h2 class="mb-4">Odpowiedz na pytania:</h2>
+    <form action="/submit" method="POST">
+        {% for q in questions %}
+        <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+
+                <input type="hidden" name="all_question_ids" value="{{ q.id }}">
+
+                <h5 class="card-title">
+                    {{ loop.index }}. {{ q.question }}
+                    {% if q.type == 'multiple' %}
+                        <span class="badge bg-info text-dark" style="font-size: 0.75rem;">Wielokrotny wybór</span>
+                    {% endif %}
+                </h5>
+
+                {% for option in q.options %}
+                <div class="form-check my-2">
+                    <input class="form-check-input" type="checkbox" name="question_{{ q.id }}" value="{{ option }}" id="q_{{ q.id }}_{{ loop.index }}">
+                    <label class="form-check-label" for="q_{{ q.id }}_{{ loop.index }}">
+                        {{ option }}
+                    </label>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+        <button type="submit" class="btn btn-success btn-lg w-100 mb-5">Zakończ test i zobacz wynik</button>
+    </form>
+</body>
+</html>

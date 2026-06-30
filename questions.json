@@ -1,0 +1,1188 @@
+[
+    {
+        "id": 1,
+        "type": "single",
+        "question": "Instrukcja SELECT służy do:",
+        "options": [
+            "sprowadzania rekordów z bazy danych",
+            "wstawiania rekordów do bazy danych",
+            "usuwania rekordów z bazy danych",
+            "aktualizacji rekordów w bazie danych"
+        ],
+        "correct": "sprowadzania rekordów z bazy danych",
+        "shuffle":  false
+    },
+    {
+        "id": 2,
+        "type": "single",
+        "question": "Instrukcja INSERT służy do:",
+        "options": [
+            "sprowadzania rekordów z bazy danych",
+            "wstawiania rekordów do bazy danych",
+            "usuwania rekordów z bazy danych",
+            "aktualizacji rekordów w bazie danych"
+        ],
+        "correct": "wstawiania rekordów do bazy danych",
+        "shuffle":  false
+    },
+    {
+        "id": 3,
+        "type": "single",
+        "question": "Instrukcja DELETE służy do:",
+        "options": [
+            "sprowadzania rekordów z bazy danych",
+            "wstawiania rekordów do bazy danych",
+            "usuwania rekordów z bazy danych",
+            "aktualizacji rekordów w bazie danych"
+        ],
+        "correct": "usuwania rekordów z bazy danych",
+        "shuffle":  false
+    },
+    {
+        "id": 4,
+        "type": "single",
+        "question": "Instrukcja UPDATE służy do:",
+        "options": [
+            "sprowadzania rekordów z bazy danych",
+            "wstawiania rekordów do bazy danych",
+            "usuwania rekordów z bazy danych",
+            "aktualizacji rekordów w bazie danych"
+        ],
+        "correct": "aktualizacji rekordów w bazie danych",
+        "shuffle": false
+    },
+    {
+        "id": 5,
+        "type": "single",
+        "question": "INDEKS w bazie danych przyśpiesza:",
+        "options": [
+            "wyszukiwania rekordów w bazie danych",
+            "wstawiania rekordów do bazy danych",
+            "usuwania rekordów z bazy danych",
+            "autoryzację użytkowników w bazie danych"
+        ],
+        "correct": "wyszukiwania rekordów w bazie danych",
+        "shuffle": false
+    },
+    {
+        "id": 6,
+        "type": "single",
+        "question": "Instrukcja COMMIT służy do:",
+        "options": [
+            "wycofywania zmian w bazie danych",
+            "wstawiania rekordów do bazy danych",
+            "zatwierdzania zmian w bazie danych",
+            "aktualizacji rekordów w bazie danych"
+        ],
+        "correct": "zatwierdzania zmian w bazie danych",
+        "shuffle": false
+    },
+    {
+        "id": 7,
+        "type": "single",
+        "question": "Instrukcja ROLLBACK służy do:",
+        "options": [
+            "wycofywania zmian w bazie danych",
+            "zatwierdzania zmian w bazie danych",
+            "usuwania rekordów z bazy danych",
+            "aktualizacji rekordów w bazie danych"
+        ],
+        "correct": "wycofywania zmian w bazie danych",
+        "shuffle": false
+    },
+    {
+        "id": 8,
+        "type": "single",
+        "question": "Instrukcja GRANT służy do:",
+        "options": [
+            "przyznawania uprawnień w bazie danych",
+            "zatwierdzania zmian w bazie danych",
+            "odbierania uprawnień w bazie danych",
+            "aktualizacji rekordów w bazie danych"
+        ],
+        "correct": "przyznawania uprawnień w bazie danych",
+        "shuffle": false
+    },
+    {
+        "id": 9,
+        "type": "single",
+        "question": "Instrukcja ROLLBACK służy do:",
+        "options": [
+            "przyznawania uprawnień w bazie danych",
+            "zatwierdzania zmian w bazie danych",
+            "odbierania uprawnień w bazie danych",
+            "wycofywania zmian w bazie danych"
+        ],
+        "correct": "wycofywania zmian w bazie danych",
+        "shuffle": false
+    },
+    {
+        "id": 10,
+        "type": "single",
+        "question": "Instrukcja ALTER TABLE służy do:",
+        "options": [
+            "tworzenia tabeli",
+            "usuwania tabeli",
+            "zmiany schematu tabeli",
+            "aktualizacji indeksów założonych na tabeli"
+        ],
+        "correct": "zmiany schematu tabeli",
+        "shuffle": false
+    },
+    {
+        "id": 11,
+        "type": "single",
+        "question": "Jaka jest wartość wyrażenia Null=Null:",
+        "options": [
+            "jest nieokreślone",
+            "True",
+            false,
+            "Null"
+        ],
+        "correct": "jest nieokreślone",
+        "shuffle": false
+    },
+    {
+        "id": 12,
+        "type": "single",
+        "question": "Jaka jest wartość wyrażenia True OR Null:",
+        "options": [
+            "jest nieokreślone",
+            "True",
+            false,
+            "Null"
+        ],
+        "correct": "True",
+        "shuffle": false
+    },
+    {
+        "id": 13,
+        "type": "single",
+        "question": "Jaka jest wartość wyrażenia False OR Null:",
+        "options": [
+            "jest nieokreślone",
+            "True",
+            false,
+            "Null"
+        ],
+        "correct": "jest nieokreślone",
+        "shuffle": false
+    },
+    {
+        "id": 14,
+        "type": "single",
+        "question": "Jaka jest wartość wyrażenia False AND Null:",
+        "options": [
+            "jest nieokreślone",
+            "True",
+            false,
+            "Null"
+        ],
+        "correct": false,
+        "shuffle": false
+    },
+    {
+        "id": 15,
+        "type": "single",
+        "question": "Jaka jest wartość wyrażenia True AND Null:",
+        "options": [
+            "jest nieokreślone",
+            "True",
+            false,
+            "Null"
+        ],
+        "correct": "jest nieokreślone",
+        "shuffle": false
+    },
+    {
+        "id": 16,
+        "type": "single",
+        "question": "Jaka jest wartość wyrażenia NOT Null:",
+        "options": [
+            "jest nieokreślone",
+            "True",
+            false,
+            "Null"
+        ],
+        "correct": "Null",
+        "shuffle": false
+    },
+    {
+        "id": 17,
+        "type": "single",
+        "question": "Co będzie wynikiem realizacji instrukcji SELECT * FROM Emp WHERE EmpNo=EmpNo OR EmpNo=NULL",
+        "options": [
+            "relacja Emp",
+            "relacja pusta",
+            "instrukcja jest niepoprawna"
+        ],
+        "correct": "relacja Emp",
+        "shuffle": false
+    },
+    {
+        "id": 18,
+        "type": "single",
+        "question": "Co będzie wynikiem realizacji instrukcji SELECT * FROM Emp WHERE EmpNo=EmpNo AND NULL=EmpNo",
+        "options": [
+            "relacja Emp",
+            "relacja pusta",
+            "instrukcja jest niepoprawna"
+        ],
+        "correct": "relacja pusta",
+        "shuffle": false
+    },
+    {
+        "id": 19,
+        "type": "single",
+        "question": "Relacja R ma atrybut a. Jaka liczba może być wynikiem SELECT Count(*) FROM R WHERE a=a",
+        "options": [
+            "0",
+            "1",
+            "dowolna liczba całkowita",
+            "zawsze tyle jaka jest liczebność relacji R."
+        ],
+        "correct": "zawsze tyle jaka jest liczebność relacji R.",
+        "shuffle": false
+    },
+    {
+        "id": 20,
+        "type": "single",
+        "question": "Relacja R ma atrybut a. Jaka liczba może być wynikiem SELECT Count(*) FROM R WHERE a<a",
+        "options": [
+            "zawsze 0",
+            "1",
+            "dowolna liczba całkowita",
+            "tyle jaka jest liczebność relacji R."
+        ],
+        "correct": "zawsze 0",
+        "shuffle": false
+    },
+     {
+        "id": 21,
+        "type": "single",
+        "question": "Encji odpowiada w relacyjnej bazie danych:",
+        "options": [
+            "wiersz w tabeli",
+            "kolumna w tabeli",
+            "tabela",
+            "klucz obcy"
+        ],
+        "correct": "wiersz w tabeli",
+        "shuffle": false
+    },
+    {
+        "id": 22,
+        "type": "single",
+        "question": "Związkowi jednoznacznemu odpowiada w relacyjnej bazie danych:",
+        "options": [
+            "kolumna w tabeli",
+            "klucz obcy",
+            "indeks w tabeli",
+            "wartość NULL"
+        ],
+        "correct": "klucz obcy",
+        "shuffle": false
+    },
+    {
+        "id": 23,
+        "type": "single",
+        "question": "Związkowi wieloznacznemu odpowiada w relacyjnej bazie danych:",
+        "options": [
+            "klucz obcy",
+            "tabela",
+            "kolumna w tabeli",
+            "wiersz w tabeli"
+        ],
+        "correct": "tabela",
+        "shuffle": false
+    },
+    {
+        "id": 24,
+        "type": "single",
+        "question": "Atrybutowi w relacyjnej bazie danych odpowiada:",
+        "options": [
+            "kolumna w tabeli",
+            "wiersz w tabeli",
+            "tabela",
+            "indeks w tabeli"
+        ],
+        "correct": "kolumna w tabeli",
+        "shuffle": false
+    },
+    {
+        "id": 25,
+        "type": "single",
+        "question": "Jednoznacznemu identyfikatorowi odpowiada w relacyjnej bazie danych:",
+        "options": [
+            "kolumna w tabeli",
+            "indeks w tabeli",
+            "klucz obcy",
+            "klucz główny"
+        ],
+        "correct": "klucz główny",
+        "shuffle": false
+    },
+    {
+        "id": 26,
+        "type": "single",
+        "question": "Spójność referencyjna dotyczy faktu:",
+        "options": [
+            "wartością klucza obcego może być null lub wartość odpowiadającego mu klucza głównego",
+            "wartości w kolumnie nie powtarzają się",
+            "wartości w kolumnie nie mogą zależeć ani od części klucza ani nawet przechodnio od klucza",
+            "w każdej tabeli powinien istnieć dokładnie jeden klucz"
+        ],
+        "correct": "wartością klucza obcego może być null lub wartość odpowiadającego mu klucza głównego",
+        "shuffle": false
+    },
+    {
+        "id": 27,
+        "type": "single",
+        "question": "III postać normalna dotyczy faktu:",
+        "options": [
+            "wartością klucza obcego może być null lub wartość odpowiadającego mu klucza głównego",
+            "wartości w kolumnie nie powtarzają się",
+            "wartości w kolumnie niekluczowej nie mogą zależeć ani od części klucza ani nawet przechodnio od klucza",
+            "w każdej tabeli powinien istnieć dokładnie jeden klucz"
+        ],
+        "correct": "wartości w kolumnie niekluczowej nie mogą zależeć ani od części klucza ani nawet przechodnio od klucza",
+        "shuffle": false
+    },
+    {
+        "id": 28,
+        "type": "multiple",
+        "question": "Które ze sformułowań są prawdziwe w modelu relacyjnym:",
+        "options": [
+            "wartości w kolumnie są przechowywane w kolejności posortowanej",
+            "wiersze nie powtarzają się",
+            "kolejność kolumn jest nieistotna",
+            "wartości w kolumnie nie powtarzają się"
+        ],
+        "correct": [
+            "wiersze nie powtarzają się",
+            "kolejność kolumn jest nieistotna"
+        ],
+        "shuffle": false
+    },
+    {
+        "id": 29,
+        "type": "multiple",
+        "question": "Które ze sformułowań są prawdziwe w modelu relacyjnym:",
+        "options": [
+            "wiersze nie mają tożsamości obiektowej",
+            "związek jednoznaczny reprezentuje się przy pomocy klucza obcego",
+            "związek wieloznaczny reprezentuje się przy pomocy klucza obcego",
+            "klucze obce muszą być typu całkowitego"
+        ],
+        "correct": "wiersze nie mają tożsamości obiektowej",
+        "shuffle": false
+    },
+    {
+        "id": 30,
+        "type": "multiple",
+        "question": "Które ze sformułowań są prawdziwe w modelu relacyjnym:",
+        "options": [
+            "tabela jest konkretną reprezentacją relacji",
+            "dla klucza jednoznacznego jest automatycznie zakładany indeks",
+            "dla klucza obcego jest automatycznie zakładany indeks",
+            "dla klucza głównego jest automatycznie zakładany indeks jednoznaczny"
+        ],
+        "correct": [
+            "tabela jest konkretną reprezentacją relacji",
+            "dla klucza głównego jest automatycznie zakładany indeks jednoznaczny",
+            "dla klucza jednoznacznego jest automatycznie zakładany indeks"
+        ],
+        "shuffle": false
+    },
+    {
+        "id": 31,
+        "type": "multiple",
+        "question": "Które ze sformułowań są prawdziwe w modelu relacyjnym:",
+        "options": [
+            "klucz obcy nie może być częścią klucza głównego",
+            "klucz główny nie może być częścią klucza obcego",
+            "wartości klucza głównego nie mogą się powtarzać",
+            "wartości klucza obcego nie mogą się powtarzać"
+        ],
+        "correct": [
+            "wartości klucza głównego nie mogą się powtarzać"
+        ],
+        "shuffle": false
+    },
+    {
+        "id": 32,
+        "type": "single",
+        "question": "Zależność złączeniowa jest uogólnieniem zależności wielowartościowej w następującym sensie:",
+        "options": [
+            "dotyczy rozbicia tabeli na dokładnie dwie tabele",
+            "dotyczy rozbicia tabeli na dokładnie trzy tabele",
+            "dotyczy rozbicia tabeli na więcej niż dwie tabele",
+            "dotyczy rozbicia tabeli na co najmniej dwie tabele"
+        ],
+        "correct": "dotyczy rozbicia tabeli na więcej niż dwie tabele",
+        "shuffle": false
+    },
+    {
+        "id": 33,
+        "type": "single",
+        "question": "Postać normalna Boyce’a-Codda dotyczy faktu:",
+        "options": [
+            "wartością klucza obcego może być null lub wartość odpowiadającego mu klucza głównego",
+            "każda nietrywialna zależność funkcyjna jest zależnością od nadklucza",
+            "wartości w kolumnie niekluczowej nie mogą zależeć ani od części klucza ani nawet przechodnio od klucza",
+            "w każdej tabeli powinien istnieć dokładnie jeden klucz"
+        ],
+        "correct": "każda nietrywialna zależność funkcyjna jest zależnością od nadklucza",
+        "shuffle": false
+    },
+    {
+        "id": 34,
+        "type": "multiple",
+        "question": "Które z poniższych stwierdzeń są prawdziwe:",
+        "options": [
+            "jedyną poprawną, nietrywialną zależnością funkcyjną jest zależność do klucza",
+            "należy starać się użyć najmniejszej możliwej liczby tabel",
+            "w tabeli nie powinno być żadnych niekontrolowanych redundancji",
+            "należy wszystkie związki jednoznaczne zastąpić związkami jednojednoznacznymi"
+        ],
+        "correct": [
+            "w tabeli nie powinno być żadnych niekontrolowanych redundancji"
+        ],
+        "shuffle": false
+    },
+    {
+        "id": 35,
+        "type": "multiple",
+        "question": "Które z poniższych stwierdzeń są prawdziwe:",
+        "options": [
+            "każdy fakt przechowywany w bazie danych powinien być w niej wyrażany tylko na jeden sposób",
+            "należy starać się użyć najmniejszej możliwej liczby tabel",
+            "należy skonsultować z użytkownikiem poprawność skonstruowanego modelu danych",
+            "należy spytać się użytkownika czy schemat tabel jest w III postaci normalnej"
+        ],
+        "correct": [
+            "każdy fakt przechowywany w bazie danych powinien być w niej wyrażany tylko na jeden sposób",
+            "należy skonsultować z użytkownikiem poprawność skonstruowanego modelu danych"
+        ],
+        "shuffle": false
+    },
+    {
+        "id": 36,
+        "type": "single",
+        "question": "Dany jest schemat relacyjny R={Miasto, Ulica, Kod}, F = {Miasto,Ulica->Kod; Kod->Miasto}. W której postaci normalnej jest ten schemat:",
+        "options": [
+            "I postać normalna",
+            "II postać normalna",
+            "III postać normalna",
+            "postać normalna Boyce’a-Codda"
+        ],
+        "correct":  "III postać normalna",
+        "shuffle": false
+    },
+    {
+        "id": 37,
+        "type": "single",
+        "question": "Dany jest schemat relacyjny R={Miasto, Ulica, Kod, Poczta}, F = {Miasto,Ulica->Kod; Kod->Miasto; Kod->Poczta}. W której postaci normalnej jest ten schemat:",
+        "options": [
+            "I postać normalna",
+            "II postać normalna",
+            "III postać normalna",
+            "postać normalna Boyce’a-Codda"
+        ],
+        "correct": "II postać normalna",
+        "shuffle": false
+    },
+    {
+        "id": 38,
+        "type": "single",
+        "question": "Dany jest schemat relacyjny R={Miasto, Ulica, Kod, Poczta}, F = {Miasto,Ulica->Kod; Kod->Poczta}. W której postaci normalnej jest ten schemat:",
+        "options": [
+            "I postać normalna",
+            "II postać normalna",
+            "III postać normalna",
+            "postać normalna Boyce’a-Codda"
+        ],
+        "correct": "III postać normalna",
+        "shuffle": false
+    },
+    {
+        "id": 39,
+        "type": "single",
+        "question": "Dany jest schemat relacyjny R={Miasto, Ulica, Kod}, F = {Miasto,Ulica->Kod}. W której postaci normalnej jest ten schemat:",
+        "options": [
+            "I postać normalna",
+            "II postać normalna",
+            "III postać normalna",
+            "postać normalna Boyce’a-Codda"
+        ],
+        "correct": "II postać normalna",
+        "shuffle": false
+    },
+    {
+        "id": 40,
+        "type": "single",
+        "question": "Dany jest schemat relacyjny R={Ulica, Kod, Sklep}, F = {Ulica->Kod; Sklep->Ulica}. W której postaci normalnej jest ten schemat:",
+        "options": [
+            "I postać normalna",
+            "II postać normalna",
+            "III postać normalna",
+            "postać normalna Boyce’a-Codda"
+        ],
+        "correct": "III postać normalna",
+        "shuffle": false
+    },
+    {
+        "id": 41,
+        "type": "single",
+        "question": "Dany jest schemat relacyjny R={Ulica, Kod, Sklep}, F = {Ulica->Kod; Ulica, Numer ->Sklep}. W której postaci normalnej jest ten schemat:",
+        "options": [
+            "I postać normalna",
+            "II postać normalna",
+            "III postać normalna",
+            "postać normalna Boyce’a-Codda"
+        ],
+        "correct": "III postać normalna",
+        "shuffle": false
+    },
+    {
+        "id": 42,
+        "type": "single",
+        "question": "Dany jest schemat relacyjny R={Student, Adres, Akademik}, F = {Student->Adres; Akademik->Adres; Student->Akademik}. W której postaci normalnej jest ten schemat:",
+        "options": [
+            "I postać normalna",
+            "II postać normalna",
+            "III postać normalna",
+            "postać normalna Boyce’a-Codda"
+        ],
+        "correct": "III postać normalna",
+        "shuffle": false
+    },
+    {
+        "id": 43,
+        "type": "single",
+        "question": "Dany jest schemat relacyjny R={Student, Uczelnia, Adres, Klub}, F = {Student->Uczelnia; Klub->Adres}. W której postaci normalnej jest ten schemat:",
+        "options": [
+            "I postać normalna",
+            "II postać normalna",
+            "III postać normalna",
+            "postać normalna Boyce’a-Codda"
+        ],
+        "correct": "III postać normalna",
+        "shuffle": false
+    },
+    {
+        "id": 44,
+        "type": "single",
+        "question": "Dany jest schemat relacyjny R={Student, Uczelnia, Adres, Klub}, F = {Student->Uczelnia; Klub->Adres; Uczelnia->Adres}. W której postaci normalnej jest ten schemat:",
+        "options": [
+            "I postać normalna",
+            "II postać normalna",
+            "III postać normalna",
+            "postać normalna Boyce’a-Codda"
+        ],
+        "correct": "III postać normalna",
+        "shuffle": false
+    },
+    {
+        "id": 45,
+        "type": "single",
+        "question": "Dany jest schemat relacyjny R={Student, Uczelnia, Adres, Akademik}, F = {Student, Uczelnia->Klub; Klub->Adres}. W której postaci normalnej jest ten schemat:",
+        "options": [
+            "I postać normalna",
+            "II postać normalna",
+            "III postać normalna",
+            "postać normalna Boyce’a-Codda"
+        ],
+        "correct": "III postać normalna",
+        "shuffle": false
+    },
+   {
+        "id": 46,
+        "type": "multiple",
+        "question": "Które ze sformułowań są prawdziwe dla związku nieidentyfikującego w Erwinie:",
+        "options": [
+            "jest oznaczany za pomocą rombu po stronie „jeden”",
+            "nie wchodzi w skład jednoznacznego identyfikatora encji po stronie „wiele”",
+            "jest oznaczany linią przerywaną",
+            "jest oznaczany linią ciągłą"
+        ],
+        "correct": [
+            "nie wchodzi w skład jednoznacznego identyfikatora encji po stronie „wiele”",
+            "jest oznaczany linią przerywaną"
+        ],
+        "shuffle": false
+    },
+    {
+        "id": 47,
+        "type": "multiple",
+        "question": "Które sformułowania są prawdziwe dla związku identyfikującego w Erwinie:",
+        "options": [
+            "jest oznaczany za pomocą litery P po stronie „jeden”",
+            "wchodzi w skład jednoznacznego identyfikatora encji po stronie „wiele”",
+            "jest oznaczany linią przerywaną",
+            "jest oznaczany linią ciągłą"
+        ],
+        "correct": [
+            "wchodzi w skład jednoznacznego identyfikatora encji po stronie „wiele”",
+            "jest oznaczany linią ciągłą"
+        ],
+        "shuffle": false
+    },
+    {
+        "id": 48,
+        "type": "multiple",
+        "question": "Więzy referencyjne dotyczą w Erwinie:",
+        "options": [
+            "zależności wartości atrybutu od klucza",
+            "wykonywania operacji INSERT, DELETE i UPDATE na powiązanych rekordach",
+            "wiązania wartości zmiennej podstawienia w czasie kompilacji",
+            "używania odnośników dla kolumn kluczy obcych"
+        ],
+        "correct": [
+            "wykonywania operacji INSERT, DELETE i UPDATE na powiązanych rekordach",
+            "używania odnośników dla kolumn kluczy obcych"
+        ],
+        "shuffle": false
+    },
+    {
+        "id": 49,
+        "type": "single",
+        "question": "W Erwinie czarne kółko stawia się na linii związku:",
+        "options": [
+            "jednojednoznacznego",
+            "jednoznacznego",
+            "wieloznacznego",
+            "podkategorii"
+        ],
+        "correct": "jednoznacznego",
+        "shuffle": false
+    },
+    {
+        "id": 50,
+        "type": "single",
+        "question": "W Erwinie encja niezależna to:",
+        "options": [
+            "encja niepołączona związkami z żadnymi innymi encjami",
+            "encja, której jednoznaczny identyfikator nie zawiera klucza obcego",
+            "encja, której wszystkie związki są nieidentyfikujące",
+            "encja, której jeden ze związków jest identyfikujący"
+        ],
+        "correct": "encja, której jednoznaczny identyfikator nie zawiera klucza obcego",
+        "shuffle": false
+    },
+    {
+        "id": 51,
+        "type": "single",
+        "question": "W Erwinie encja zależna to:",
+        "options": [
+            "encja, której jednoznaczny identyfikator zawiera przy najmniej jeden klucz obcy",
+            "encja, której jednoznaczny identyfikator zawiera same klucze obce",
+            "encja, której wszystkie związki są nieidentyfikujące",
+            "encja, której jeden ze związków jest identyfikujący"
+        ],
+        "correct": "encja, której jednoznaczny identyfikator zawiera przy najmniej jeden klucz obcy",
+        "shuffle": false
+    },
+   {
+        "id": 52,
+        "type": "single",
+        "question": "Studenci mają pomysły. Każdy pomysł dotyczy pewnej rzeczy. Każdy pomysł przychodzi do głowy dokładnie jednemu studentowi. Student może się podzielić pomysłem z kolegami-studentami. Który schemat jest najodpowiedniejszy z punktu widzenia zasad projektowania baz danych:",
+        "options": [
+            "a) Studenci(id_studenta, imię, nazwisko, adres, id_pomysłu) Pomysły(id_pomysłu, rzecz, opis)",
+            "b) Studenci(id_studenta, imię, nazwisko, adres, id_kolegi) Pomysły(id_pomysłu, rzecz, opis, id_studenta)",
+            "c) Studenci(id_studenta, imię, nazwisko, adres) Pomysły(id_pomysłu, rzecz, opis, id_studenta) Koledzy(id_pomysłu, id_kolegi)",
+            "d) Studenci(id_studenta, imię, nazwisko, adres) Pomysły(id_pomysłu, rzecz, opis, id_studenta, id_kolegi)"
+        ],
+        "correct": "c) Studenci(id_studenta, imię, nazwisko, adres) Pomysły(id_pomysłu, rzecz, opis, id_studenta) Koledzy(id_pomysłu, id_kolegi)",
+        "shuffle": false
+    },
+    {
+        "id": 53,
+        "type": "single",
+        "question": "Studenci lubią się, są sobie obojętni lub nie znoszą się (nie ma innej możliwości). Który schemat jest najodpowiedniejszy:",
+        "options": [
+            "a) Studenci(id_studenta, imię, nazwisko) Koledzy(id_kolegi, imię, nazwisko, id_studenta, id_stosunku_do) Stosunek(id_stosunku_do, stosunek_do)",
+            "b) Studenci(id_studenta, imię, nazwisko) Koledzy(id_kolegi, imię, nazwisko, id_studenta, stosunek_do)",
+            "c) Studenci(id_studenta, imię, nazwisko) Lubi(id_studenta, id_kolegi) Nie_znosi(id_studenta, id_kolegi) Obojętny(id_studenta, id_kolegi)",
+            "d) Studenci(id_studenta, imię, nazwisko) Lubi(id_studenta, id_kolegi) Nie_znosi(id_studenta, id_kolegi)"
+        ],
+        "correct": "a) Studenci(id_studenta, imię, nazwisko) Koledzy(id_kolegi, imię nazwisko, id_studenta, id_stosunku_do) Stosunek(id_stosunku_do, stosunek_do)",
+        "shuffle": false
+    },
+    {
+        "id": 54,
+        "type": "single",
+        "question": "W domach mieszkają zwierzęta domowe. Niektóre zwierzęta zjadają się wzajemnie. Domy mogą być położone obok siebie. Jaki schemat jest najodpowiedniejszy:",
+        "options": [
+            "a) Domy(id_domu, adres, id_zwierzę) Zwierzęta(id_zwierzę, rodzaj, id_zw_zjadane)",
+            "b) Domy(id_domu, adres) Zwierzęta(id_zwierzę, id_rodzaju, id_domu) Rodzaje(id_rodzaju, rodzaj) Obok_siebie(id_domu1, id_domu2) Zjada(id_rodz_je, id_rodz_zjadane)",
+            "c) Domy(id_domu, adres) Zwierzęta(id_zwierzę, id_rodzaju, id_domu) Rodzaje(id_rodzaju, rodzaj) Sąsiedzi(id_zwierzę1, id_zwierzę2) Zjada(id_rodz_je, id_rodz_zjadane)",
+            "d) Domy(id_domu, adres, id_zwierzę, rodzaj) Obok_siebie(id_domu1, id_domu2) Zjada(id_zw_je, id_zw_zjadane)"
+        ],
+        "correct": "b) Domy(id_domu, adres) Zwierzęta(id_zwierzę, id_rodzaju, id_domu) Rodzaje(id_rodzaju, rodzaj) Obok_siebie(id_domu1, id_domu2) Zjada(id_rodz_je, id_rodz_zjadane)",
+        "shuffle": false
+    },
+    {
+        "id": 55,
+        "type": "single",
+        "question": "W filmach grają aktorzy. Każdy film ma dokładnie jednego reżysera i jednego lub więcej scenarzystę. Który schemat jest najodpowiedniejszy:",
+        "options": [
+            "a) Filmy(id_filmu, tytuł, reżyser, gaża_reżysera) Aktorzy(id_aktora, nazwisko, rola, id_filmu, gaża) Scenarzyści(id_scenarzysty, nazwisko, id_filmu, gaża)",
+            "b) Filmy(id_filmu, tytuł, id_reżysera, gaża_reżysera) Osoby(id_osoby, nazwisko) Aktorzy(id_aktora, id_filmu, rola, gaża) Scenarzyści(id_scenarzysty, id_filmu, gaża)",
+            "c) Filmy(id_filmu, tytuł, id_reżysera) Osoby(id_osoby, nazwisko) Zespół(id_osoby, id_filmu, rola, gaża)",
+            "d) Zespół(tytuł_filmu, nazwisko_osoby, rola, gaża)"
+        ],
+        "correct": "c) Filmy(id_filmu, tytuł, id_reżysera) Osoby(id_osoby, nazwisko) Zespół(id_osoby, id_filmu, rola, gaża)",
+        "shuffle": false
+    },
+    {
+        "id": 56,
+        "type": "single",
+        "question": "Politycy należą do partii politycznych, partie tworzą koalicje wyborcze. Który schemat jest najodpowiedniejszy:",
+        "options": [
+            "a) Politycy(id_polityka, imię, nazwisko) Partie(id_partii, nazwa, od, do) Koalicje(id_koalicji, data_wyborów) Członkowie(id_partii, id_osoby, od, do) W_koalicji(id_partii, id_koalicji, od, do)",
+            "b) Osoby(id_osoby, imię, nazwisko, id_partii) Partie(id_partii, nazwa, id_koalicji) Politycy(id_osoby, id_partii, od, do) Koalicje(id_koalicji, data_wyborów)",
+            "c) Partie(id_partii, nazwa, koalicja, polityk, od, do)",
+            "d) Politycy(id_polityka, imię, nazwisko, id_partii, od, do) Partie(id_partii, nazwa, od, do) Koalicje(id_koalicji, data_wyborów) W_koalicji(id_partii, id_koalicji, od, do)"
+        ],
+        "correct": "a) Politycy(id_polityka, imię, nazwisko) Partie(id_partii, nazwa, od, do) Koalicje(id_koalicji, data_wyborów) Członkowie(id_partii, id_osoby, od, do) W_koalicji(id_partii, id_koalicji, od, do)",
+        "shuffle": false
+    },
+    {
+        "id": 57,
+        "type": "single",
+        "question": "Studenci planują przyszłą pracę zawodową i stanowiska. Który schemat jest najodpowiedniejszy:",
+        "options": [
+            "a) Studenci(id_studenta, imię, nazwisko) Zajęcia(id_zajęcia, nazwa) Stanowiska(id_stanowiska, nazwa) Kto_co(id_studenta, id_stanowiska, id_zajęcia)",
+            "b) Studenci(id_studenta, imię, nazwisko, rok) Zajęcia(id_zajęcia, nazwa) Stanowiska(id_stanowiska, nazwa) Jakie_zajęcie(id_studenta, id_zajęcia) Jakie_stanowisko(id_studenta, id_stanowiska)",
+            "c) Studenci(imię, nazwisko, rok, zajęcie, stanowisko)",
+            "d) Studenci(id_studenta, imię, nazwisko, rok) Kto_co(id_studenta, stanowisko, zajęcie)"
+        ],
+        "correct": "b) Studenci(id_studenta, imię, nazwisko, rok) Zajęcia(id_zajęcia, nazwa) Stanowiska(id_stanowiska, nazwa) Jakie_zajęcie(id_studenta, id_zajęcia) Jakie_stanowisko(id_studenta, id_stanowiska)",
+        "shuffle": false
+    },
+    {
+        "id": 58,
+        "type": "single",
+        "question": "Baza danych o umiejętnościach, przedmiotach i książkach. Który schemat jest najlepszy:",
+        "options": [
+            "a) Umiejętności(umiejętność, przedmiot, książka)",
+            "b) Przedmioty(id_przedmiotu, nazwa, semestr) Książki(ISBN, tytuł, autorzy) Umiejętności(id_umiejętności, id_przedmiotu, nazwa, opis, ISBN, od_strony, do_strony)",
+            "c) Przedmioty(id_przedmiotu, nazwa, semestr) Książki(ISBN, tytuł, sygnatura) Umiejętności(id_umiejętności, nazwa, opis) Gdzie(id_umiejętności, ISBN, od_strony, do_strony) Na(id_umiejętności, id_przedmiotu)",
+            "d) Przedmioty(id_przedmiotu, nazwa, semestr) Egzemplarze_książek(sygnatura, tytuł, autorzy, nr_półki) Umiejętności(id_umiejętności, nazwa, opis) Gdzie(id_umiejętności, sygnatura, od_strony, do_strony)"
+        ],
+        "correct": "c) Przedmioty(id_przedmiotu, nazwa, semestr) Książki(ISBN, tytuł, sygnatura) Umiejętności(id_umiejętności, nazwa, opis) Gdzie(id_umiejętności, ISBN, od_strony, do_strony) Na(id_umiejętności, id_przedmiotu)",
+        "shuffle": false
+    },
+    {
+        "id": 59,
+        "type": "single",
+        "question": "Baza o oprogramowaniu w salach i przedmiotach. Który schemat jest najlepszy:",
+        "options": [
+            "a) Sale(numer_sali, nazwa_programu, wersja, ile_instalacji) Programy(nazwa_programu, wersja, nazwa_przedmiotu)",
+            "b) Programy(id_programu, firma, nazwa, wersja) Przedmioty(id_przedmiotu, nazwa) Sale_programy(nr_sali, id_programu, ile_instalacji) Przedmioty_programy(id_przedmiotu, id_programu)",
+            "c) Programy(id_programu, firma, nazwa, wersja, nazwa_przedmiotu) Sale_programy(nr_sali, id_programu, wersja, ile_instalacji)",
+            "d) Sale(id_sali, numer, ile_komputerów) Programy(id_programu, firma, nazwa, wersja) Przedmioty(id_przedmiotu, nazwa) Sale_programy(id_sali, id_programu, wersja, ile_instalacji) Przedmioty_programy(id_przedmiotu, id_programu, wersja)"
+        ],
+        "correct": "b) Programy(id_programu, firma, nazwa, wersja) Przedmioty(id_przedmiotu, nazwa) Sale_programy(nr_sali, id_programu, ile_instalacji) Przedmioty_programy(id_przedmiotu, id_programu)",
+        "shuffle": false
+    },
+    {
+        "id": 60,
+        "type": "single",
+        "question": "Schemat bazy danych dla biblioteki (klienci, książki, wypożyczenia). Który jest najlepszy:",
+        "options": [
+            "a) Klient(ID_KLIENTA, imię, nazwisko, adres) Książka(ID_KSIĄŻKI, tytuł, autor) Wypożyczenie(ID_KLIENTA, id_książki, data_wypożyczenia, data_zwrotu)",
+            "b) Klient(ID_KLIENTA, imię, nazwisko, adres) Książka(ID_KSIĄŻKI, tytuł, autor) Wypożyczenie(ID_KLIENTA, ID_KSIĄŻKI, data_wypożyczenia, data_zwrotu)",
+            "c) Klient(ID_KLIENTA, imię, nazwisko, adres) Książka(ID_KSIĄŻKI, tytuł, autor) Wypożyczenie(ID_KLIENTA, ID_KSIĄŻKI, DATA_WYPOŻYCZENIA, data_zwrotu)",
+            "d) Klient(ID_KLIENTA, imię, nazwisko, adres) Książka(ID_KSIĄŻKI, tytuł, autor) Wypożyczenie(ID_KLIENTA, ID_KSIĄŻKI, DATA_WYPOŻYCZENIA, DATA_ZWROTU)"
+        ],
+        "correct": "d) Klient(ID_KLIENTA, imię, nazwisko, adres) Książka(ID_KSIĄŻKI, tytuł, autor) Wypożyczenie(ID_KLIENTA, ID_KSIĄŻKI, DATA_WYPOŻYCZENIA, DATA_ZWROTU)",
+        "shuffle": false
+    },
+    {
+        "id": 61,
+        "type": "single",
+        "question": "Baza studentów i ocen. Który schemat jest najlepszy:",
+        "options": [
+            "a) Student(id_studenta, imię, nazwisko) Ocena(id_oceny, ocena, data_wystawienia, nazwa_przedmiotu)",
+            "b) Student(id_studenta, imię, nazwisko) Ocena(id_oceny, ocena, data_wystawienia, id_przedmiotu, id_studenta) Przedmiot(id_przedmiotu, nazwa)",
+            "c) Student(id_studenta, imię, nazwisko, id_oceny) Ocena(id_oceny, ocena, data_wystawienia, id_przedmiotu) Przedmiot(id_przedmiotu, nazwa)",
+            "d) Student(id_studenta, imię, nazwisko, ocena) Przedmiot(id_przedmiotu, nazwa, id_studenta)"
+        ],
+        "correct": "b) Student(id_studenta, imię, nazwisko) Ocena(id_oceny, ocena, data_wystawienia, id_przedmiotu, id_studenta) Przedmiot(id_przedmiotu, nazwa)",
+        "shuffle": false
+    },
+    {
+        "id": 62,
+        "type": "multiple",
+        "question": "Które instrukcje SQL są składniowo poprawne w Oracle (Osoby(Imie, Nazwisko, Zarobki)):",
+        "options": [
+            "a) SELECT Osoby.Nazwisko, Osoby.Imie, Osoby.Zarobki WHERE Osoby.Zarobki >1000;",
+            "b) INSERT INTO Osoby VALUES ('Jan', 'Kowalski', 2000) WHERE USER = 'KOWALSKI';",
+            "c) DELETE FROM Osoby WHERE USER='KOWALSKI';",
+            "d) UPDATE Osoby SET Nazwisko=USER;"
+        ],
+        "correct": [
+            "c) DELETE FROM Osoby WHERE USER='KOWALSKI';",
+            "d) UPDATE Osoby SET Nazwisko=USER;"
+        ],
+        "shuffle": false
+    },
+    {
+        "id": 63,
+        "type": "multiple",
+        "question": "Które instrukcje SQL są składniowo poprawne w Oracle:",
+        "options": [
+            "a) SELECT Osoby.Nazwisko, Osoby.Imie, Osoby.Zarobki FROM Osoby GROUP BY Osoby.Nazwisko;",
+            "b) INSERT INTO Osoby VALUES ('Jan', 'Kowalski', 2000) WHERE USER = 'KOWALSKI';",
+            "c) DELETE FROM Osoby WHERE 'JANKOWSKI'='KOWALSKI';",
+            "d) UPDATE Osoby SET Nazwisko=USER;"
+        ],
+        "correct": [
+            "c) DELETE FROM Osoby WHERE 'JANKOWSKI'='KOWALSKI';",
+            "d) UPDATE Osoby SET Nazwisko=USER;"
+        ],
+        "shuffle": false
+    },
+    {
+        "id": 64,
+        "type": "multiple",
+        "question": "Które instrukcje SQL są składniowo poprawne w Oracle:",
+        "options": [
+            "a) SELECT Osoby.Nazwisko, Osoby.Imie, Osoby.Zarobki ORDER BY Osoby.Zarobki;",
+            "b) INSERT INTO Osoby SELECT * FROM Osoby WHERE USER = 'KOWALSKI';",
+            "c) DELETE FROM Osoby WHERE USER='KOWALSKI';",
+            "d) UPDATE Osoby WHERE Nazwisko='KOWALSKI';"
+        ],
+        "correct": [
+            "b) INSERT INTO Osoby SELECT * FROM Osoby WHERE USER = 'KOWALSKI';",
+            "c) DELETE FROM Osoby WHERE USER='KOWALSKI';"
+        ],
+        "shuffle": false
+    },
+    {
+        "id": 65,
+        "type": "multiple",
+        "question": "Które instrukcje SQL są składniowo poprawne w Oracle:",
+        "options": [
+            "a) SELECT Osoby.Nazwisko, Osoby.Imie, Osoby.Zarobki HAVING Osoby.Zarobki>1000;",
+            "b) INSERT INTO Osoby SELECT Nazwisko, Imie FROM Osoby WHERE USER = 'KOWALSKI';",
+            "c) DELETE FROM Osoby WHERE USER='KOWALSKI';",
+            "d) UPDATE Osoby WHERE Nazwisko='KOWALSKI';"
+        ],
+        "correct": [
+            "c) DELETE FROM Osoby WHERE USER='KOWALSKI';"
+        ],
+        "shuffle": false
+    },
+    {
+        "id": 66,
+        "type": "multiple",
+        "question": "Które instrukcje SQL są składniowo poprawne w Oracle:",
+        "options": [
+            "a) SELECT Osoby.Nazwisko, Osoby.Imie, Osoby.Zarobki FROM Osoby HAVING Osoby.Zarobki>1000;",
+            "b) INSERT INTO Osoby SELECT * FROM Osoby WHERE Nazwisko = 'KOWALSKI';",
+            "c) DELETE FROM Osoby WHENEVER Osoby.Zarobki<1000;",
+            "d) UPDATE Osoby WHERE Nazwisko='KOWALSKI';"
+        ],
+        "correct": [
+            "b) INSERT INTO Osoby SELECT * FROM Osoby WHERE Nazwisko = 'KOWALSKI';"
+        ],
+        "shuffle": false
+    },
+    {
+        "id": 67,
+        "type": "multiple",
+        "question": "Które instrukcje SQL są poprawne (Osoby + Działy):",
+        "options": [
+            "a) SELECT Osoby.Nazwisko, Osoby.Imie, Osoby.Id_działu WHERE Działy.Nazwa='PRAWNY';",
+            "b) INSERT INTO Osoby(Imie, Nazwisko,Zarobki) VALUES ('Jan', 'Kowalski', 2000);",
+            "c) DELETE FROM Osoby WHERE Id_działu=(SELECT Id_działu FROM Działy WHERE Nazwa='BUFET');",
+            "d) UPDATE Osoby DELETE Nazwisko=USER;"
+        ],
+        "correct": [
+            "b) INSERT INTO Osoby(Imie, Nazwisko,Zarobki) VALUES ('Jan', 'Kowalski', 2000);",
+            "c) DELETE FROM Osoby WHERE Id_działu=(SELECT Id_działu FROM Działy WHERE Nazwa='BUFET');"
+        ],
+        "shuffle": false
+    },
+    {
+        "id": 68,
+        "type": "multiple",
+        "question": "Które instrukcje SQL są poprawne (Osoby + Działy):",
+        "options": [
+            "a) SELECT Osoby.Nazwisko, Działy.Nazwa FROM Osoby, Działy WHERE Osoby.Id_działu=Działy.Id_działu GROUP BY Osoby.Nazwisko;",
+            "b) INSERT INTO Osoby VALUES ('Jan', 'Kowalski', 2000) WHERE Osoby.Id_działu = 23;",
+            "c) DELETE FROM Osoby, Działy WHERE Osoby.Nazwisko='KOWALSKI' AND Działy.Nazwa='KASA';",
+            "d) UPDATE Osoby SET Id_działu=NULL;"
+        ],
+        "correct": [
+            "a) SELECT Osoby.Nazwisko, Działy.Nazwa FROM Osoby, Działy WHERE Osoby.Id_działu=Działy.Id_działu GROUP BY Osoby.Nazwisko;",
+            "d) UPDATE Osoby SET Id_działu=NULL;"
+        ],
+        "shuffle": false
+    },
+    {
+        "id": 69,
+        "type": "multiple",
+        "question": "Które instrukcje SQL są poprawne (Osoby + Działy):",
+        "options": [
+            "a) SELECT Osoby.Nazwisko, COUNT(Działy.Nazwa) FROM Osoby, Działy WHERE Osoby.Id_działu=Działy.Id_działu GROUP BY Osoby.Nazwisko;",
+            "b) INSERT INTO Osoby VALUES ('Jan', 'Kowalski', 2000) WHERE Osoby.Id_działu = 23;",
+            "c) DELETE FROM Osoby, Działy WHERE Osoby.Nazwisko='KOWALSKI' AND Działy.Nazwa='KASA' AND Osoby.Id_działu=Działy.Id_działu;",
+            "d) UPDATE Osoby SET Id_działu=NULL WHERE COUNT(*)<5;"
+        ],
+        "correct": [
+            "a) SELECT Osoby.Nazwisko, COUNT(Działy.Nazwa) FROM Osoby, Działy WHERE Osoby.Id_działu=Działy.Id_działu GROUP BY Osoby.Nazwisko;"
+        ],
+        "shuffle": false
+    },
+    {
+        "id": 70,
+        "type": "multiple",
+        "question": "Które instrukcje SQL są poprawne (Osoby + Działy):",
+        "options": [
+            "a) SELECT Osoby.Nazwisko, COUNT(Działy.Nazwa) FROM Osoby, Działy WHERE Osoby.Id_działu=Działy.Id_działu GROUP BY Osoby.Nazwisko HAVING COUNT(Id_działu)<2;",
+            "b) INSERT INTO Osoby VALUES ('Jan', 'Kowalski', 2000) WHERE Osoby.Id_działu = 23;",
+            "c) DELETE FROM Osoby, Działy WHERE Osoby.Nazwisko='KOWALSKI' AND Działy.Nazwa='KASA' AND Osoby.Id_działu=Działy.Id_działu;",
+            "d) UPDATE Osoby SET Id_działu=NULL WHERE 5>(SELECT COUNT(*) FROM Działy);"
+        ],
+        "correct": [
+            "a) SELECT Osoby.Nazwisko, COUNT(Działy.Nazwa) FROM Osoby, Działy WHERE Osoby.Id_działu=Działy.Id_działu GROUP BY Osoby.Nazwisko HAVING COUNT(Id_działu)<2;",
+            "d) UPDATE Osoby SET Id_działu=NULL WHERE 5>(SELECT COUNT(*) FROM Działy);"
+        ],
+        "shuffle": false
+    },
+    {
+        "id": 71,
+        "type": "multiple",
+        "question": "Które instrukcje SQL są poprawne (Osoby + Działy):",
+        "options": [
+            "a) SELECT Osoby.Nazwisko, Działy.Nazwa FROM Osoby, Działy WHERE Osoby.Id_działu=Działy.Id_działu GROUP BY Osoby.Nazwisko HAVING COUNT(Działy.Id_działu)<2;",
+            "b) INSERT INTO Osoby VALUES ('Jan', 'Kowalski', 2000);",
+            "c) DELETE FROM Osoby WHERE Osoby.Nazwisko='KOWALSKI' AND Działy.Id_działu=22;",
+            "d) UPDATE Osoby SET Id_działu=NULL WHERE 5>(SELECT COUNT(*) FROM Działy);"
+        ],
+        "correct": [
+            "b) INSERT INTO Osoby VALUES ('Jan', 'Kowalski', 2000);",
+            "d) UPDATE Osoby SET Id_działu=NULL WHERE 5>(SELECT COUNT(*) FROM Działy);"
+        ],
+        "shuffle": false
+    },
+    {
+        "id": 72,
+        "type": "multiple",
+        "question": "Które instrukcje SQL są poprawne:",
+        "options": [
+            "a) SELECT imie, nazwisko, zarobki FROM osoby UNION SELECT imie, nazwisko FROM osoby;",
+            "b) SELECT AVG(zarobki) FROM osoby;",
+            "c) SELECT imie, nazwisko FROM osoby WHERE zarobki = MAX(zarobki);",
+            "d) SELECT imie, nazwisko FROM osoby HAVING zarobki = MAX(zarobki);"
+        ],
+        "correct": [
+            "b) SELECT AVG(zarobki) FROM osoby;"
+        ],
+        "shuffle": false
+    },
+    {
+        "id": 73,
+        "type": "multiple",
+        "question": "Które instrukcje SQL są poprawne:",
+        "options": [
+            "a) SELECT imie, nazwisko, AVG(zarobki) FROM Osoby GROUP BY id_dzialu;",
+            "b) SELECT id_dzialu, AVG(zarobki) FROM Osoby GROUP BY id_dzialu;",
+            "c) SELECT id_dzialu, AVG(zarobki) FROM Osoby GROUP BY id_dzialu WHERE AVG(zarobki) > 1000;",
+            "d) SELECT AVG(zarobki) from Osoby WHERE zarobki > 1000;"
+        ],
+        "correct": [
+            "b) SELECT id_dzialu, AVG(zarobki) FROM Osoby GROUP BY id_dzialu;",
+            "d) SELECT AVG(zarobki) from Osoby WHERE zarobki > 1000;"
+        ],
+        "shuffle": false
+    },
+    {
+        "id": 74,
+        "type": "multiple",
+        "question": "Które instrukcje SQL są poprawne:",
+        "options": [
+            "a) INSERT INTO Osoby (imie, nazwisko, zarobki) VALUES ('Jan', 'Kowalski', 1000);",
+            "b) INSERT INTO Osoby VALUES ('Jan', 'Kowalski');",
+            "c) DELETE FROM Osoby WHERE Nazwisko LIKE 'Kowalski';",
+            "d) UPDATE Osoby.Nazwisko = 'Kowalski';"
+        ],
+        "correct": [
+            "a) INSERT INTO Osoby (imie, nazwisko, zarobki) VALUES ('Jan', 'Kowalski', 1000);",
+            "c) DELETE FROM Osoby WHERE Nazwisko LIKE 'Kowalski';"
+        ],
+        "shuffle": false
+    },
+    {
+        "id": 75,
+        "type": "multiple",
+        "question": "Wskazać poprawne zapytania SQL znajdujące pracowników zarabiających minimalną pensję na ich stanowiskach pracy:",
+        "options": [
+            "1. SELECT ename, job, sal FROM emp e WHERE sal = (SELECT MIN(sal) FROM emp WHERE job = e.job);",
+            "2. SELECT ename, job, sal FROM emp WHERE (sal, job) IN (SELECT MIN(sal), job FROM emp GROUP BY job);",
+            "3. SELECT ename, job, sal FROM emp WHERE sal = (SELECT MIN(sal) FROM emp GROUP BY job);",
+            "4. SELECT ename, job, MIN(sal) FROM emp GROUP BY job;"
+        ],
+        "correct": ["1. SELECT ename, job, sal FROM emp e WHERE sal = (SELECT MIN(sal) FROM emp WHERE job = e.job);", "2. SELECT ename, job, sal FROM emp WHERE (sal, job) IN (SELECT MIN(sal), job FROM emp GROUP BY job);"],
+        "shuffle": false
+    },
+    {
+        "id": 76,
+        "type": "multiple",
+        "question": "Wskazać poprawne zapytania SQL znajdujące ostatnio zatrudnionych pracowników w każdym departamencie:",
+        "options": [
+            "1. SELECT deptno, ename, hiredate FROM emp WHERE (hiredate, deptno) IN (SELECT MAX(hiredate), deptno FROM emp GROUP BY deptno);",
+            "2. SELECT deptno, ename, hiredate FROM emp e WHERE (hiredate,) = (SELECT MAX(hiredate) FROM emp WHERE deptno=e.deptno GROUP BY deptno);",
+            "3. SELECT deptno, ename, hiredate FROM emp WHERE hiredate = (SELECT MAX(hiredate) FROM emp GROUP BY deptno);",
+            "4. SELECT deptno, ename, MAX(hiredate) FROM emp GROUP BY deptno;"
+        ],
+        "correct": ["1. SELECT deptno, ename, hiredate FROM emp WHERE (hiredate, deptno) IN (SELECT MAX(hiredate), deptno FROM emp GROUP BY deptno);"],
+        "shuffle": false
+    },
+    {
+        "id": 77,
+        "type": "multiple",
+        "question": "Wskazać poprawne zapytania SQL znajdujące pracowników o najniższych zarobkach w ich działach:",
+        "options": [
+            "1. SELECT ename, sal, deptno FROM emp WHERE (sal, deptno) IN (SELECT MIN(sal), deptno FROM emp GROUP BY deptno);",
+            "2. SELECT ename, deptno, sal FROM emp e WHERE sal = (SELECT MIN(sal) FROM emp WHERE deptno = e.deptno);",
+            "3. SELECT ename, sal, deptno FROM emp WHERE sal IN (SELECT MIN(sal) FROM emp GROUP BY deptno);",
+            "4. SELECT ename MIN(sal), deptno FROM emp GROUP BY deptno"
+        ],
+        "correct": ["1. SELECT ename, sal, deptno FROM emp WHERE (sal, deptno) IN (SELECT MIN(sal), deptno FROM emp GROUP BY deptno);", "2. SELECT ename, deptno, sal FROM emp e WHERE sal = (SELECT MIN(sal) FROM emp WHERE deptno = e.deptno);"],
+        "shuffle": false
+    },
+    {
+        "id": 78,
+        "type": "multiple",
+        "question": "Wskazać poprawne zapytania SQL znajdujące pracowników zarabiających więcej niż każdy pracownik z departamentu 30:",
+        "options": [
+            "1. SELECT ename, sal, job, deptno FROM emp WHERE sal > ALL (SELECT DISTINCT sal FROM emp WHERE deptno = 30);",
+            "2. SELECT ename, sal, job, deptno FROM emp WHERE sal > (SELECT MAX(sal) FROM emp WHERE deptno = 30);",
+            "3. SELECT ename, sal, job, deptno FROM emp WHERE sal > ANY (SELECT DISTINCT sal FROM emp WHERE deptno = 30);",
+            "4. SELECT ename, sal, job, deptno FROM emp WHERE sal > (SELECT MIN(sal) FROM emp WHERE deptno = 30);"
+        ],
+        "correct": ["1. SELECT ename, sal, job, deptno FROM emp WHERE sal > ALL (SELECT DISTINCT sal FROM emp WHERE deptno = 30);", "2. SELECT ename, sal, job, deptno FROM emp WHERE sal > (SELECT MAX(sal) FROM emp WHERE deptno = 30);"],
+        "shuffle": false
+    },
+    {
+        "id": 79,
+        "type": "multiple",
+        "question": "Wskazać poprawne zapytania SQL znajdujące stanowiska pracy w działach 10 lub 20:",
+        "options": [
+            "1. SELECT DISTINCT job FROM emp WHERE deptno = 10 OR deptno = 20",
+            "2. SELECT DISTINCT job FROM emp WHERE deptno = 10 UNION SELECT DISTINCT job FROM emp WHERE deptno = 20",
+            "3. SELECT DISTINCT job FROM emp WHERE deptno = 10 AND deptno = 20",
+            "4. SELECT DISTINCT job FROM emp WHERE deptno = 10 INTERSECT SELECT DISTINCT job FROM emp WHERE deptno = 20"
+        ],
+        "correct": ["1. SELECT DISTINCT job FROM emp WHERE deptno = 10 OR deptno = 20", "2. SELECT DISTINCT job FROM emp WHERE deptno = 10 UNION SELECT DISTINCT job FROM emp WHERE deptno = 20"],
+        "shuffle": false
+    },
+    {
+        "id": 80,
+        "type": "multiple",
+        "question": "Wskazać poprawne zapytania SQL znajdujące stanowiska pracy występujące zarówno w dziale 10 jak i 20:",
+        "options": [
+            "1. SELECT DISTINCT job FROM emp WHERE deptno = 10 INTERSECT SELECT DISTINCT job FROM emp WHERE deptno = 20",
+            "2. SELECT DISTINCT job FROM emp WHERE deptno = 10 OR deptno = 20",
+            "3. SELECT DISTINCT job FROM emp WHERE deptno = 10 UNION SELECT DISTINCT job FROM emp WHERE deptno = 20",
+            "4. SELECT DISTINCT job FROM emp WHERE deptno = 10 AND deptno = 20"
+        ],
+        "correct": ["1. SELECT DISTINCT job FROM emp WHERE deptno = 10 INTERSECT SELECT DISTINCT job FROM emp WHERE deptno = 20"],
+        "shuffle": false
+    },
+    {
+        "id": 81,
+        "type": "multiple",
+        "question": "Wskazać poprawne zapytania SQL znajdujące pracowników zarabiających mniej od swoich kierowników:",
+        "options": [
+            "1. SELECT e.ename, e.sal, m.ename, m.sal FROM emp e, emp m WHERE e.mgr = m.empno AND e.sal < m.sal",
+            "2. SELECT e.ename, e.sal, m.ename, m.sal FROM emp e, emp m WHERE e.mgr = m.empno AND m.sal < e.sal",
+            "3. SELECT e.ename, e.sal, m.ename, m.sal FROM emp e, emp m WHERE e.mgr = m.mgr AND e.sal < m.sal",
+            "4. SELECT e.ename, e.sal, m.ename, m.sal FROM emp e, emp m WHERE e.mgr = m.mgr AND m.sal < e.sal"
+        ],
+        "correct": ["1. SELECT e.ename, e.sal, m.ename, m.sal FROM emp e, emp m WHERE e.mgr = m.empno AND e.sal < m.sal"],
+        "shuffle": false
+    },
+    {
+        "id": 82,
+        "type": "multiple",
+        "question": "Wskazać poprawne zapytania SQL znajdujące średnie zarobki działów z więcej niż 3 pracownikami:",
+        "options": [
+            "1. SELECT deptno, AVG(sal) FROM emp GROUP BY deptno HAVING COUNT(*) > 3",
+            "2. SELECT deptno, AVG(sal) FROM emp HAVING COUNT(*) > 3 GROUP BY deptno",
+            "3. SELECT deptno, AVG(sal) FROM emp GROUP BY deptno WHERE COUNT(*) > 3",
+            "4. SELECT deptno, AVG(sal) FROM emp WHERE COUNT(*) > 3 GROUP BY deptno"
+        ],
+        "correct": ["1. SELECT deptno, AVG(sal) FROM emp GROUP BY deptno HAVING COUNT(*) > 3"],
+        "shuffle": false
+    },
+    {
+        "id": 83,
+        "type": "multiple",
+        "question": "Wskazać poprawne zapytania SQL znajdujące stanowiska, gdzie średnia pensja >= 3000:",
+        "options": [
+            "1. SELECT job, AVG(sal) FROM emp GROUP BY job HAVING AVG(sal) >= 3000",
+            "2. SELECT job, AVG(sal) FROM emp HAVING AVG(sal) >= 3000 GROUP BY job",
+            "3. SELECT job, AVG(sal) FROM emp GROUP BY job WHERE AVG(sal) >= 3000",
+            "4. SELECT job, AVG(sal) FROM emp WHERE AVG(sal) >= 3000 GROUP BY job"
+        ],
+        "correct": ["1. SELECT job, AVG(sal) FROM emp GROUP BY job HAVING AVG(sal) >= 3000"],
+        "shuffle": false
+    },
+    {
+        "id": 84,
+        "type": "multiple",
+        "question": "Wskazać poprawne zapytania SQL znajdujące departamenty z więcej niż 3 pracownikami:",
+        "options": [
+            "1. SELECT deptno, COUNT(*) FROM emp GROUP BY deptno HAVING COUNT(*) > 3",
+            "2. SELECT deptno, COUNT(*) FROM emp HAVING COUNT(*) > 3 GROUP BY deptno",
+            "3. SELECT deptno, COUNT(*) FROM emp GROUP BY deptno WHERE COUNT(*) > 3",
+            "4. SELECT deptno, COUNT(*) FROM emp WHERE COUNT(*) > 3 GROUP BY deptno"
+        ],
+        "correct": ["1. SELECT deptno, COUNT(*) FROM emp GROUP BY deptno HAVING COUNT(*) > 3"],
+        "shuffle": false
+    },
+    {
+        "id": 85,
+        "type": "multiple",
+        "question": "Wskazać poprawne zapytania SQL znajdujące liczbę pracowników w departamencie z DALLAS:",
+        "options": [
+            "1. SELECT COUNT(*) FROM emp, dept WHERE dept.loc='DALLAS' AND emp.deptno=dept.deptno GROUP BY dept.deptno",
+            "2. SELECT COUNT(*) FROM emp WHERE deptno=(SELECT deptno FROM dept WHERE loc='DALLAS')",
+            "3. SELECT COUNT(*) FROM emp, dept WHERE dept.loc='DALLAS' GROUP BY dept.deptno",
+            "4. SELECT COUNT(*) FROM emp, dept WHERE emp.deptno=dept.deptno GROUP BY dept.deptno HAVING dept.loc='DALLAS'"
+        ],
+        "correct": ["1. SELECT COUNT(*) FROM emp, dept WHERE dept.loc='DALLAS' AND emp.deptno=dept.deptno GROUP BY dept.deptno", "2. SELECT COUNT(*) FROM emp WHERE deptno=(SELECT deptno FROM dept WHERE loc='DALLAS')"],
+        "shuffle": false
+    },
+    {
+        "id": 86,
+        "type": "multiple",
+        "question": "Wskazać poprawne zapytania SQL znajdujące średni zarobek pracowników z drugiej klasy zarobkowej:",
+        "options": [
+            "1. SELECT AVG(sal) FROM emp, salgrade WHERE grade=2 AND sal BETWEEN losal AND hisal GROUP BY grade",
+            "2. SELECT AVG(sal) FROM emp, salgrade WHERE grade=2 AND sal > losal AND sal < hisal GROUP BY grade",
+            "3. SELECT AVG(sal) FROM emp WHERE sal > (SELECT losal FROM salgrade WHERE grade=2) AND sal < (SELECT hisal FROM salgrade WHERE grade=2)",
+            "4. SELECT AVG(sal) FROM emp, salgrade WHERE grade=2 AND sal BETWEEN losal AND hisal"
+        ],
+        "correct": ["1. SELECT AVG(sal) FROM emp, salgrade WHERE grade=2 AND sal BETWEEN losal AND hisal GROUP BY grade", "4. SELECT AVG(sal) FROM emp, salgrade WHERE grade=2 AND sal BETWEEN losal AND hisal"],
+        "shuffle": false
+    },
+    {
+        "id": 87,
+        "type": "multiple",
+        "question": "Wskazać poprawne zapytanie SQL znajdujące trzech najlepiej zarabiających pracowników:",
+        "options": [
+            "1. SELECT ename, sal FROM emp e WHERE 3 > (SELECT COUNT(*) FROM emp WHERE e.sal < sal)",
+            "2. SELECT ename, sal FROM emp e WHERE COUNT(*) < 3",
+            "3. SELECT ename, sal FROM emp GROUP BY deptno HAVING COUNT(*) < 3"
+        ],
+        "correct": ["1. SELECT ename, sal FROM emp e WHERE 3 > (SELECT COUNT(*) FROM emp WHERE e.sal < sal)"],
+        "shuffle": false
+    }
+]
